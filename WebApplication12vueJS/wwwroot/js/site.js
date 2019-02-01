@@ -2,3 +2,10 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your Javascript code.
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        product: "Socks"
+    }
+})
